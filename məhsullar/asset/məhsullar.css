@@ -1,0 +1,45 @@
+body {
+    background-color: #2e3b4e; /* Tünd fon */
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+.product-block {
+    background-color: #3a4a60;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product-block img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.product-block:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.product-info h5 {
+    color: #fff;
+}
+
+#selected-product img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.modal-content {
+    background-color: #2e3b4e;
+    color: white;
+}

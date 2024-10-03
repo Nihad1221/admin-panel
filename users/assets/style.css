@@ -1,0 +1,50 @@
+body, h2, ul, li, table {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 56px;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #343a40;
+    transition: left 0.3s;
+    z-index: 1000;
+}
+
+/* Main Content Styles */
+.main-content {
+    margin-left: 20px;
+    margin-top: 60px;
+    padding: 20px;
+    transition: margin-left 0.3s;
+}
+
+.sidebar.show {
+    left: 0;
+}
+
+.main-content.shift {
+    margin-left: 270px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    background-color: #fff;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1001;
+} 
